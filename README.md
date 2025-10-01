@@ -39,7 +39,7 @@ Note: Follow the dataset provider’s license/terms. Do not upload raw data to t
 
 ## Reproducing the Experiments
 1. Open:
-notebooks/Statistical_Validation_DL_Imbalance.ipynb
+notebooks/cmapss_binary_failure_classification_notebook.ipynb
 2. In the first cell, set:
 DATA_DIR (local path where you placed the dataset)
 3. Run all cells.
