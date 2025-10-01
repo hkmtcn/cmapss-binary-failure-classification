@@ -21,10 +21,13 @@ This study investigates the effectiveness of data-driven predictive maintenance 
 
 ## Repository Structure
 
-├─ notebooks/
-│ └─ Statistical_Validation_DL_Imbalance.ipynb
-├─ LICENSE
-└─ README.md
+```
+.
+├─ README.md
+├─ LICENSE                # Code under MIT; figures/data artifacts under CC BY 4.0
+├─ notebook/             # Reproducible analysis notebooks (Models, analysis)
+│ └─ cmapss_binary_failure_classification_notebook.ipynb
+```
 
 This repository does not include the C-MAPSS dataset. Please download it externally and point the notebook to your local path.
 
@@ -34,12 +37,12 @@ After downloading, open the notebook and set the data directory in the first con
 
 Note: Follow the dataset provider’s license/terms. Do not upload raw data to this repo.
 
-Reproducing the Experiments
-1- Open:
+## Reproducing the Experiments
+1. Open:
 notebooks/Statistical_Validation_DL_Imbalance.ipynb
-2-In the first cell, set:
+2. In the first cell, set:
 DATA_DIR (local path where you placed the dataset)
-3-Run all cells.
+3. Run all cells.
 The notebook itself renders metrics tables, ROC curves, confusion matrices, and (optionally) SHAP explanations inline.
 
 
