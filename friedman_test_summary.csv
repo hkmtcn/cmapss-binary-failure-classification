@@ -1,0 +1,7 @@
+Analysis,Chi_Square,P_Value,Significant,Post_Hoc
+classification_accuracy,22.257142857142853,0.00046782134296561846,Yes,Performed
+classification_f1,20.65714285714286,0.0009401983646974846,Yes,Performed
+classification_roc_auc,16.542857142857144,0.005453566496986459,Yes,Performed
+regression_rmse,9.57142857142857,0.08833030024086637,No,Not performed
+regression_mae,8.085714285714289,0.15157458254406214,No,Not performed
+regression_r2,6.942857142857136,0.22492490440795662,No,Not performed
